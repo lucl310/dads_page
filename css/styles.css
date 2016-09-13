@@ -1,11 +1,31 @@
-#head 
+#headWrapper
 {
-	color: blue
-	font-size: 10px;
+	background-color: blue;
+	font-size: 15px;
 	font-family: "Lucida Console", Lucida, monospace;
-	q
 	margin-left: 80px;
 	margin-right: 80px;
 	margin-bottom: 80px;
 	margin-top: 80px;
+}
+h1
+{	font-family: "Times New Roman", Times, serif;
+
+
+}
+#menu
+{
+	background-color: orange;
+margin-bottom: 800px;
+margin-top: 80px;
+margin-right: -800px;
+margin-left: 80px;
+}
+#textWrapper{
+	background-color: green;
+	font-family: "lucida sans unicode", "lucida grande", sans-serif
+
+
+
+
 }
