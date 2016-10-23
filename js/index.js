@@ -1,5 +1,5 @@
-var about_us = function(onclick){console.log("Hi my name is michel and I run L&D amusements. currently i live in california, but I do fairs in many places. sometimes I work with my step brother")}
-var contact_us = "our phone number is lorem	ipsum and you can email me at averns@aol.com"
+var about_us = function(onclick)console.log("Hi my name is michel and I run L&D amusements. currently i live in california, but I do fairs in many places. sometimes I work with my step brother");
+var contact_us ="our phone number is lorem	ipsum and you can email me at averns@aol.com"
 var one = {
 	relow: 0,
 	remid: 0,

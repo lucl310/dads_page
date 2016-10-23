@@ -1,12 +1,12 @@
+body{
+	background-color:grey;
+}
 #headWrapper
 {
 	background-color: blue;
 	font-size: 15px;
 	font-family: "Lucida Console", Lucida, monospace;
-	margin-left: 80px;
-	margin-right: 80px;
-	margin-bottom: 80px;
-	margin-top: 80px;
+	text-align: center;
 }
 h1
 {	font-family: "Times New Roman", Times, serif;
@@ -16,10 +16,7 @@ h1
 #menu
 {
 	background-color: orange;
-margin-bottom: 800px;
-margin-top: 80px;
-margin-right: -800px;
-margin-left: 80px;
+text-align: center;
 }
 #textWrapper{
 	background-color: green;
