@@ -1,38 +1,27 @@
-var about_us = function(onclick)console.log("Hi my name is michel and I run L&D amusements. currently i live in california, but I do fairs in many places. sometimes I work with my step brother");
-var contact_us ="our phone number is lorem	ipsum and you can email me at averns@aol.com"
-var one = {
-	relow: 0,
-	remid: 0,
-	rehigh: 0
-};
-var restlow = function(re) {
-	re.relow++
+console.log("If you are reading this, this means that you are either a fellow coder, or you are a curious person that wanted to check out the console, or this was a total accident and you clicked this the wrong way. Either way, I would like to hear from you, so just comment your feedback at the email in the about us section! Thank you and have a great day/night")
 
-	//responses++;
-	document.getElementById('results').innerHTML = re.relow + " said that it was crowded, "+ re.remid+ " said that it was normal, "+ re.rehigh + " said that it was deserted";
+
+document.getElementById('textWrapper')
+
+function aboutUs(){
+	console.log("Hi my name is michel and I run L&D amusements. currently i live in california, but I do fairs in many places. I am ");
+	textWrapper.innerHTML = train[0]
 }
 
-var restmid = function(re) {
-	re.remid++;
-	document.getElementById('results').innerHTML = re.relow + " said that it was crowded, "+ re.remid+ " said that it was normal, "+ re.rehigh + " said that it was deserted";
-	
+
+function contactUs() {
+	console.log("our phone number is lorem	ipsum and you can email me at averns@aol.com");
+	textWrapper.innerHTML = train[1]
 }
 
-var resthigh = function(re) {
-	re.rehigh++;
-	document.getElementById('results').innerHTML = re.relow + " said that it was crowded, "+ re.remid+ " said that it was normal "+ re.rehigh + " said that it was deserted";
-
+function ourWares() {
+	console.log("lorem ipsum");
+	textWrapper.innerHTML = train[2]
 }
-var rest1 = function(re){
-	document.getElementById("title").innerHTML = "Highway Inn";
-	document.getElementById("buttons").innerHTML =
-		"<button onclick='restlow(one)'>crowded</button><button onclick='restmid(one)'>Medium</button><button onclick='resthigh(one)'>not crowded</button>";
-	document.getElementById("results").innerHTML = re.rehigh  + " said that it was deserted, " + re.remid + " said that it was normal, " + re.relow + " said that it was crowded";
+
+function more() {
+	console.log("lorem ipsum");
+	textWrapper.innerHTML = train[3]
 }
-var arr= ["it is crowded", "it is normal", "it is empty"];
+var	train = ["Hi my name is michel and I run L&D amusements. currently i live in california, but I do fairs in many places. I am lorem years old, and I like to play video games. From age of empires, to heroes 3 shadow of death, I like them. I also am a fan of quad riding, and the starwars seiries. Some of my personal favorite rides are the mechanichal bull, and bungee jumpers.", "our phone number is lorem	ipsum and you can email me at averns@aol.com", "lorem ipsum", "lorem ipsum"]
 
-var arr= ["it is crowded", "it is normal", "it is empty"];
-
-var responses = 0
-
-var mostDemonPoints = 0
